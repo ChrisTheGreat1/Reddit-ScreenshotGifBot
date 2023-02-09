@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_01152023_Reddit_ScreenshotGifBot</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>6b601d13-17c5-4b8b-a471-11613f01e195</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="backup before refactor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="redditscreenshotgifbot-b006216c9527.json" />
+    <None Remove="ScreenshotGifBot.odt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.59.0.2922" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="RestSharp" Version="108.0.3" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
+  </ItemGroup>
+
+</Project>
