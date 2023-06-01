@@ -1,6 +1,6 @@
 # Reddit ScreenshotGifBot
 
-This is a Reddit bot I made that will convert a .gif into its individual image frames and upload the images as .jpg files to Imgur and Google Drive. The bot is activated by directly mentioning its username “u/ScreenshotGifBot” via a comment on Reddit (NOTE: it appears the bot got banned by Reddit after finishing this project, so it no longer works via this user). Replies to a comment made by the bot will not activate it. The bot accepts URL links as input and will download the .gif from the linked URL.
+This is a Reddit bot I made that will convert a .gif into its individual image frames and upload the images as .jpg files to Imgur and Google Drive. The bot is activated by directly mentioning its username “u/ScreenshotGifBot” via a comment on Reddit (*NOTE: it appears the bot got banned by Reddit after finishing this project, so it no longer works via this user*). Replies to a comment made by the bot will not activate it. The bot accepts URL links as input and will download the .gif from the linked URL.
 
 The bot will first search the mentioning comment for a valid URL. If the mentioning comment does not contain a URL, it will search the parent object (either the Reddit post or the comment that the mentioning comment was responding to) for a URL. If the comment contains more than one URL, only the first URL is used. This application runs in a continuous loop with a minimum 30 second delay between each check for new username mentions on Reddit. 
 
